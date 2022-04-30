@@ -1075,13 +1075,11 @@ input::-moz-focus-inner {
 .en {
   position: absolute;
   height: 5.2rem;
-  align-items: left;
 }
 
 .es {
   position: absolute;
   height: 5.2rem;
-  align-items: left;
 }
 
 .check {
@@ -1928,9 +1926,20 @@ input::-moz-focus-inner {
   .header-nav-wrap .header-cta {
     right: 0;
   }
+
+  .en {
+    position: absolute;
+
+    height: 5.2rem;
+  }
+
+  .es {
+    position: absolute;
+    height: 5.2rem;
+  }
 }
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 1024px) {
   .header-nav-wrap {
     padding-left: 170px;
   }
@@ -1940,6 +1949,7 @@ input::-moz-focus-inner {
   }
 
   .header-nav-wrap .header-cta__btn {
+    font-size: 1.2rem;
     height: 4.8rem;
     line-height: 4.4rem;
     padding: 0 1.6rem;
@@ -2021,6 +2031,18 @@ input::-moz-focus-inner {
     line-height: 4.8rem !important;
     width: 100%;
     text-align: center;
+  }
+
+  .en {
+    position: absolute;
+    height: 4rem;
+    margin-left: 0.5rem;
+  }
+
+  .es {
+    position: absolute;
+    height: 4rem;
+    margin-left: 0.5rem;
   }
 
   .header-menu-toggle {
