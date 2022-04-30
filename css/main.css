@@ -3098,6 +3098,10 @@ html.no-csstransitions .home-content__main {
     padding-bottom: 14.4rem;
   }
 
+  .process {
+    padding-bottom: 25rem;
+  }
+
   .video-bg {
     height: 60rem;
     margin-top: calc((60rem / 2) * -1);
@@ -3142,6 +3146,7 @@ html.no-csstransitions .home-content__main {
 
   .process {
     text-align: center;
+    padding-bottom: 25rem;
   }
 
   .process::before {
