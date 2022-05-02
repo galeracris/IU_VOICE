@@ -1941,7 +1941,11 @@ input::-moz-focus-inner {
 
 @media only screen and (max-width: 1024px) {
   .header-nav-wrap {
-    padding-left: 170px;
+    padding-left: 15rem;
+  }
+
+  .header-nav-wrap-es {
+    padding-left: 7rem;
   }
 
   .header-nav-wrap .header-main-nav {
