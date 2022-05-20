@@ -2115,6 +2115,10 @@ input::-moz-focus-inner {
   );
 }
 
+.disponibilidad {
+  text-align: justify;
+}
+
 .no-js .s-home {
   background: #000000;
 }
@@ -2160,7 +2164,7 @@ input::-moz-focus-inner {
   font-size: 2.4rem;
   line-height: 1.667;
   font-style: normal;
-  color: rgba(255, 255, 255, 0.3);
+  color: #e7e7e7;
   margin-top: 2rem;
   width: 85%;
 }
