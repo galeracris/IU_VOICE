@@ -2115,8 +2115,8 @@ input::-moz-focus-inner {
   );
 }
 
-.disponibilidad {
-  text-align: justify;
+.disponibilidad__center {
+  text-align: center;
 }
 
 .no-js .s-home {
@@ -2175,9 +2175,9 @@ input::-moz-focus-inner {
   max-width: 1300px;
 }
 
-.home-content__left {
+/* .home-content__left {
   width: calc(100% - (580px + 80px));
-}
+} */
 
 .home-content__right {
   z-index: 500;
